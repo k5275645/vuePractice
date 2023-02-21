@@ -1,0 +1,5 @@
+INDEX VERSION 1.131+C:\vue_workspace\.metadata\.plugins\org.eclipse.jdt.core
+2584330769.index
+2962926479.index
+378135688.index
+174014547.index

@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
+<script>
+	var vm1 = new Vue({
+		// Vue 객체가 관리할 요소들이 만들어지기 전에 호출되는 함수
+		beforeCreate : function() {
+			console.log('Vue객체가 관리할 요소들이 만들어지기 전입니다.');
+		}
+	})
+</script>
+</head>
+<body>
+
+</body>
+</html>

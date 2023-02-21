@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<script src="https://cdn.jsdelivr.net/npm/vue@2.7.14/dist/vue.js"></script>
+<script>
+	var vm1 = new Vue({
+		data : {
+			a1 : 100
+		}
+		// Vue 객체가 관리할 요소들이 만들어지기 전에 호출되는 함수
+		beforeCreate : function() {
+			console.log('Vue객체가 관리할 요소들이 만들어지기 전입니다.');
+			console.log('this.a1 : ' + this.a1);
+		},
+		// Vue 객체가 관리할 요소들이 만들어진 이후
+		created : function() {
+			console.log('Vue 객체가 관리할 요소들이 만들어진 이후');
+			console.log('this.a1 : ' + this.a1);
+		}
+	
+	})
+</script>
+</head>
+<body>
+
+</body>
+</html>
